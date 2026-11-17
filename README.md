@@ -1,5 +1,20 @@
 # 3D Object Generation Blueprint
 
+<!-- frontend:start -->
+## Project explorer
+
+A browsable front end for this repository, built from its own README, Compose files, dependency manifests and folder layout. Clone the repository and open `frontend/index.html` in a browser to explore it.
+
+| Overview | Architecture |
+|---|---|
+| ![Overview](docs/frontend/overview.png) | ![Architecture](docs/frontend/architecture.png) |
+
+| Tech stack | Files |
+|---|---|
+| ![Tech stack](docs/frontend/stack.png) | ![Files](docs/frontend/files.png) |
+<!-- frontend:end -->
+
+
 ## Description
 
 The 3D Object Generation Blueprint is an end-to-end generative AI workflow that allows users to prototype 3D scenes quickly by simply describing the scene. The Blueprint takes a user's 3D scene idea, generates object recommendations, associated prompts and previews using a Llama 3.1 8B LLM and NVIDIA SANA, and ready-to-use 3D objects with Microsoft TRELLIS.  
